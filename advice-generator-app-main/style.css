@@ -42,10 +42,15 @@ section{
     font-size: 16px;
     border-radius: 50%;
     margin-top: 130px;
+    transition: all 0.2s ease-in-out;
 }
-/* .button:hover{
-
-} */
+.button:hover{
+    color: hsl(150, 100%, 66%);
+    box-shadow: 0 5px 25px hsl(150, 100%, 66%);
+}
+.fa-dice-five{
+    color: hsl(218, 23%, 16%);
+}
 
 .attribution { 
     margin-top: 50px;
