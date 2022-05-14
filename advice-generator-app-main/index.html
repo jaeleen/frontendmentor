@@ -17,19 +17,24 @@
   <!-- Advice #Advice ID goes here -->
   <section id="advisebox">
 
-    <div class="newadvise">
-      <h3>ADVICE #1174</h3>
-      <p class="quote">"It is easy to situp and take notice, what's difficult is getting up and taking action."</p>
-      <button class="button roundbutton"><i class="fa-solid fa-dice-five"></i></button>
-    </div>
+    <form action="index.html" id="rollDice" method="post">
+      <div class="newadvise">
+        <h3>ADVICE #<span id="adNum"></span></h3>
+        <p id="quote"></p>
+      </div>
+      <button type="submit" class="button roundbutton"><i class="fa-solid fa-dice-five"></i></button>
+    </form>
+
   </section>
   
 
-  "<!-- Advice text goes here -->"
+  <!-- Advice text goes here -->
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Precious O</a>.
   </div>
+
+  <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
